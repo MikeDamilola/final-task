@@ -134,6 +134,7 @@ body {
 /* Home Page */
 #hero {
     background-image: url(./img/hero4.png);
+    /* background-image: url(./img/logo\ try.png); */
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -227,9 +228,13 @@ body {
 }
 
 #product1 .pro-container {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -241,7 +246,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px;
+    margin: 13px;
     transition: 0.2s ease;
     position: relative;
 }
@@ -402,7 +407,7 @@ body {
     justify-items: center;
     align-items: flex-start;
     background-image: url(./img/banner/b7.jpg);
-    max-width: 500px;
+    max-width: 420px;
     margin: 10px;
     margin-top: 15px;
     padding: 70px 30px;
